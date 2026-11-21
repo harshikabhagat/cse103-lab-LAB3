@@ -1,22 +1,37 @@
-#Heading 1
-##Haeding 2
-###Heading 3
+# Markdown Syntax Guide
+
+## Headings
+
+# Heading 1
+## Heading 2
+### Heading 3
+
+## Text Formatting
+
 **Bold text**
+
 *Italic text*
+
 ~~Strikethrough~~
 
-Unordered list:
--Item A
--Item B
--Nested Item B1
+## Unordered List
 
-Ordered list:
+- Item A
+- Item B
+  - Nested Item B1
+
+## Ordered List
+
 1. First step
 2. Second step
 
-Inline code: `print("Hello")`
+## Inline Code
 
-code block:
+`print("Hello")`
+
+## Code Block
+
 ```python
 def greet(name):
-	return f"Hello,{name}"
+    return f"Hello, {name}"
+
